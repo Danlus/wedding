@@ -26,23 +26,32 @@
 					<li id="last"><a href="rsvp.html">R.S.V.P</a></li>
 				</ul>
 			</nav>
-	
+
 	<header class="namebar">
 		<div id="dan">Daniel<br>Cook</div>
 			<span id="and">&amp;</span>
 				<div id="lisa">Lisa<br>Griffin</div>
 	</header>
 		<div class="main">
+<<<<<<< HEAD
 		
 		<!--<fieldset id="field">
 			<input type="password" id="pass" placeholder="Password"><br/>
 			<input type="submit" login();>
 		</fieldset>-->
 			<div class="pictures">
+=======
+
+		<fieldset id="field">
+			<input type="password" id="pass" placeholder="Password"><br/>
+			<input type="submit" onclick="login()">
+		</fieldset>
+			<div class="pictures" id="pictures">
+>>>>>>> ab8e2580a6201a2b14dc3ad8569bb49f4d5ddd78
 				<div class="ceremony">
 					<h2>Ceremony Pictures</h2>
 						<section class="imgcont">
-							<div class="gallery">
+							<div class="gallery" id="gallery">
 								<ul>
 									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_1.jpg" title="Ceremony"><img src="img/slider_img/tn/img_1.jpg" height="100px" width="100px" alt="Ceremony"></a></li>
 
@@ -109,6 +118,7 @@
 			<!-- Add jQuery library -->
 			<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 			<!-- Add fancyBox -->
+<<<<<<< HEAD
 			<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
 				<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
 				<script type="text/javascript">
@@ -116,5 +126,24 @@
 						$(".fancybox").fancybox();
 					});
 				</script>
+=======
+<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+<script type="text/javascript">
+		var password = "dan";
+
+		function login(){
+			if (document.getElementById('pass').value == password){
+				document.getElementById('pictures').style.display = "block";
+				document.getElementById('field').style.display = "none";
+			}
+		}
+	</script>
+>>>>>>> ab8e2580a6201a2b14dc3ad8569bb49f4d5ddd78
 		</body>
 </html>

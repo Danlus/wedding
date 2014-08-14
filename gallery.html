@@ -34,10 +34,10 @@
 	</header>
 		<div class="main">
 		
-		<fieldset id="field">
+		<!--<fieldset id="field">
 			<input type="password" id="pass" placeholder="Password"><br/>
 			<input type="submit" login();>
-		</fieldset>
+		</fieldset>-->
 			<div class="pictures">
 				<div class="ceremony">
 					<h2>Ceremony Pictures</h2>
@@ -109,22 +109,12 @@
 			<!-- Add jQuery library -->
 			<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 			<!-- Add fancyBox -->
-<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
-<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$(".fancybox").fancybox();
-	});
-</script>
-	<script type="text/javascript">
-			var password = "dan";
-
-			function login(){
-				if document.getElementById('pass').value == password{
-					document.getElementById('pictures').style.display = "block";
-					document.getElementById('field').style.display = "none";
-				}
-			}
-		</script>
+			<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+				<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+				<script type="text/javascript">
+					$(document).ready(function() {
+						$(".fancybox").fancybox();
+					});
+				</script>
 		</body>
 </html>

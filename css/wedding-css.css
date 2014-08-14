@@ -1,0 +1,427 @@
+/*all pages*/
+
+article, aside, figure, footer, header, hgroup,menu, nav, section { 
+	display: block;
+}
+
+body {
+	background :url('../img/tree.png') fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	margin: 0;
+	padding: 0;
+	font-family: 'Alegreya', serif;
+}
+
+nav {
+	background-color: #F2F0B1;
+	font-weight: 600;
+	width: 100%;
+	top: 0;
+	height: 50px;
+	color: #80002a;
+	border-bottom: 1px solid #80002a; 
+	margin: auto;
+	position: fixed;
+	z-index: 1;
+}
+
+nav ul {
+	color: #80002a;
+	padding: 0;
+	margin: 8px 0;
+	text-align: center;
+	white-space: nowrap;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 1px solid #80002a;
+	font-size: 1.3em;
+	text-align: center;
+	padding: 0px 50px 0px 50px;
+	/*margin-bottom: 50px;
+	margin-top: 20px;*/
+	width: 100px;
+	height: 30px;
+	
+}
+
+nav #last {
+	border-right: none;
+}
+
+/* Need to find a new link color or something to show up links in the text. At the moment its the same as normal text. */
+a:link,
+a:visited {
+	display: inline-block;
+	text-decoration: none;
+	color: #80002a;
+}
+
+ nav ul a:hover, nav ul a:active, nav .active a:link {
+	display: inline-block;
+	text-shadow: 3px 3px 10px #80002a;
+	-webkit-text-shadow: 3px 3px 10px #80002a;
+	-moz-text-shadow: 3px 3px 10px #80002a;
+}
+
+.namebar {
+	
+	margin: auto;
+	height: 150px;
+	color: #80002a;
+	width: 600px;
+	padding: 20px;
+	background-color: #f2f0b1;
+	margin-bottom: 10px;
+	border: 1px solid #80002a;
+	margin-top: 70px;
+}
+
+#dan {
+	font-size: 50px;
+	float:left;
+	text-align: center;
+	margin: 0 29px 0 59px;
+	line-height: 151%;
+}
+
+#and {
+	
+	text-align: center;
+	font-size: 100px;
+	float: left;
+	margin: 0 34px;
+}
+
+#lisa {
+	margin: 0 45px;
+	font-size: 50px;
+	text-align: center;
+	float:margin-left;
+	margin: 0 0 0 29px;
+	line-height: 151%;
+}
+ 
+.main {
+	margin: auto;
+	width: 600px;
+	background-color: #F2F0B1;
+	border: 1px solid #80002a;
+	padding: 20px 20px 50px 20px;
+	color: #80002a;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.main h1{
+	text-align: center;
+	text-decoration: underline;	
+}
+
+.main img {
+	border-radius: 5px;
+}
+
+/*slider*/
+
+.slider {
+	width: 580px;
+	height: 350px;
+	overflow: hidden;
+	margin: 30px auto;
+}
+
+.slider img {
+	width: 580px;
+	height: 350px;
+	display: none;
+}
+
+/*home page*/
+
+.content {
+	line-height: 25px;
+}
+/*party page*/
+
+.right {
+	text-align: right;
+	height: 104px;
+	padding: 10px 0;
+	line-height: 120%;
+}
+
+.right img {
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+
+}
+.right h2 {
+	margin-right: 250px;
+	margin-top: -110px;	
+}	
+
+.right h4 {
+	margin-right: 110px;
+	margin-top: -35px;
+}
+
+.right p {
+	text-align: right;
+	margin-top: -20px;
+	margin-right: 110px;
+	font-weight: 400;
+}
+
+.left {
+	text-align: left;
+	height: 104px;
+	padding: 10px 0;
+	line-height: 120%;
+}
+
+.left img {
+	height: 100px;
+	width: 100px;
+}
+
+.left h2 {
+	margin-left: 110px;
+	margin-top: -110px;
+	font-weight: 700;
+}
+
+.left h4 {
+	margin-left: 310px;
+	margin-top: -35px;	
+}
+
+.left p {
+	text-align: left;
+	margin-left: 110px;
+	margin-top: -20px;
+	font-weight: 500;
+}
+
+/*venue page*/
+
+#river {
+	float: left;
+}
+
+#inside {
+	float: left;	
+	margin: 10px 0px 10px 98px;
+}
+
+.toptext {
+	
+	margin-left: 270px;
+	width: 310px;
+	height: 334px;
+	font-size: 18px;
+	float: left;
+	margin: 0 20px;
+	line-height: 150%;
+}
+.website {
+	padding-margin-left: 190px;
+}
+
+.toptext a:hover {
+	text-shadow: 3px 3px 10px #80002a;
+	-webkit-text-shadow: 3px 3px 10px #80002a;
+	-moz-text-shadow: 3px 3px 10px #80002a;
+}
+
+.toptext a {
+	text-decoration: underline;
+}
+
+.toptext a:link,
+.toptext a:visited {
+	color:#80002a;
+}
+
+.barns {
+	text-decoration: underline;
+}
+
+.webaddress a:link,
+.webaddress a:visited  {
+	color: #80002a;
+}
+
+.webaddress a:hover {
+	text-shadow: 3px 3px 10px #80002a;
+}
+
+.webaddress a{
+	text-decoration: underline;
+	margin-left: -50px;
+}
+.address {
+	font-size: 20px;
+	width: 200px;
+	margin:26px;
+	float: left;
+}
+
+iframe {
+	clear: both;
+	margin-top: 20px
+}
+
+/*gallery page*/
+
+fieldset {
+	width: 150px;
+	margin: 0 auto;
+}
+
+.pictures {
+	display: none;
+}
+
+.imgcont {
+	overflow: hidden;
+}
+
+.gallery {
+	margin: auto;
+	width: 600px;
+}
+
+.gallery ul {
+	list-style: none;
+}
+
+.gallery li {
+	float: left;
+	margin: 10px;
+}
+
+.gallery img {
+	display: block;
+	padding: 5px;	
+	background: #F2F0B1; 
+	border: 1px solid #80002a;
+	box-shadow: 1px 1px 2px #80002a;
+}
+
+.gallery img:hover {
+	border: 1px solid #fff;
+}
+
+.pictures h2 {
+	margin: 0;
+	font-size: 16px;
+}
+
+#jelly {
+	height: 130px;
+	width:  162px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+/*rsvp page*/
+
+#form {
+	margin: auto;
+	text-align: left;
+	height: 350px;
+	font-family: 'Alegreya', serif;
+	width: 400px;
+	padding: 10px 0 20px 0;
+	font-size: 18px;
+	border-bottom: 2px #80002a;
+	/*border: 1px solid #80002a;		/*remove this style when completed*/
+}
+
+#rsvp {
+	text-align: center;
+	font-family: parisienne, verdana;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+#one {
+	font-family: parisienne;
+	font-size: 26px;
+	display: inline;
+}
+
+#name {
+	width: 308px;
+}
+
+#yes {
+	width: 134px;
+	float: right;
+}
+
+#no {
+	width: 134px;
+	float: right;
+}
+
+#diet {
+	width: 171px;
+}
+
+#dj {
+	width: 196px;
+}
+
+form img {
+	margin-top: -75px;
+}
+
+#form p {
+	font-size: 10px;
+	margin: 0 0 0 170px;
+}
+
+.fill {
+	font-size: 20px;
+	clear: both;
+	text-align: center;
+}
+
+#form span {
+	padding-left: 105px; 
+	font-family: parisienne;
+}
+
+input[type=submit] {
+	width: 100px;
+	height: 50px;
+	background: #80002a;
+	color: #fff;
+	border-radius: 7px;
+	float: right;
+	margin: 10px 30px 30px 30px;
+}
+
+input[type=submit]:hover {
+	background: #fff;
+	color:#80002a;
+}
+
+input[type=submit]:active {
+	color: #fff;
+	background: #ccc;
+}
+
+#submit {
+	margin: auto;
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}

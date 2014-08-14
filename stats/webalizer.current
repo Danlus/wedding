@@ -1,0 +1,305 @@
+# Webalizer V2.23-05 Incremental Data - 10/21/2013 19:35:57
+2013 10 21 19 35 57
+378 160 26 19 15 21 18451799 97 66 0
+1 3 73 1 21
+6 4 12960 2 3 3
+13 7 2080645 3 3 3
+14 8 25079 2 9 5
+9 7 16014 5 8 7
+191 66 9886719 4 25 7
+15 6 917002 2 3 3
+26 21 2162157 3 6 2
+10 3 10586 2 3 3
+15 0 209 1 2 1
+3 2 7175 1 1 1
+4 2 5981 1 2 2
+7 4 10168 2 4 3
+0 0 0 0 0 0
+11 7 22913 5 6 6
+7 3 8493 2 5 5
+8 2 4812 4 5 4
+12 8 2084170 2 4 4
+20 6 1182366 6 5 4
+0 0 0 0 0 0
+4 2 7175 1 2 2
+3 2 7175 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 1 2988 1
+6 3 9264 3
+27 4 14559 5
+7 0 865 1
+8 5 16364 5
+6 4 11155 3
+1 1 2780 1
+9 6 16164 7
+0 0 0 0
+3 1 3201 1
+0 0 0 0
+6 3 5986 4
+21 14 3002287 5
+23 16 88603 6
+19 2 1168285 4
+8 5 17343 3
+68 30 3359522 11
+81 26 4164578 13
+4 0 624 3
+27 19 4177770 9
+3 1 3619 2
+29 4 1176120 6
+1 1 2792 1
+19 14 1206930 3
+0
+0
+0
+160
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+155
+0
+0
+0
+0
+0
+0
+63
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/img/stucook.jpg
+1 15 0 18135 0 0
+/party.html
+0 23 0 34110 9 11
+/img/paulaobrien.jpg
+1 16 0 37430 0 0
+/img/finally.png
+1 15 0 6030213 0 0
+/img/barnsriver.jpg
+1 4 0 74290 0 0
+/img/richgriffin.jpg
+1 15 0 20915 0 0
+/img/savethedate.png
+1 15 0 258240 0 0
+/img/stephendiver.jpg
+1 14 0 19225 0 0
+/img/amycook.jpg
+1 15 0 19105 0 0
+/gallery.html
+0 11 0 15088 7 4
+/css/wedding-css.css
+0 37 0 87822 0 0
+/img/stephcook.jpg
+1 15 0 17155 0 0
+/js/slider.js
+0 15 0 2280 0 0
+/img/jamescook.jpg
+1 15 0 16380 0 0
+/
+0 47 0 94690 39 22
+/img/markdiver.jpg
+1 15 0 16905 0 0
+/img/tree.png
+1 15 0 11648650 0 0
+/rsvp.html
+0 3 0 8376 2 2
+/venue.html
+0 10 0 19460 7 4
+# End Of Table - urls
+# -sites- (monthly)
+2.122.59.153
+0 208 73 12864292 8 1381284396
+/party.html
+117.78.13.18
+0 3 2 5778 2 1381752274
+/
+182.64.157.8
+0 1 1 2785 1 1380862504
+/
+66.249.66.216
+0 8 5 17761 4 1382288428
+/gallery.html
+66.249.64.6
+0 1 1 1886 1 1381899808
+/gallery.html
+66.249.64.5
+0 1 1 1886 1 1381900188
+/gallery.html
+66.249.74.180
+0 20 11 35805 11 1380935013
+/venue.html
+69.197.128.114
+0 6 4 11285 1 1380785511
+/venue.html
+144.76.43.110
+0 1 1 2785 1 1380890015
+/
+66.249.73.30
+0 24 9 30434 14 1382094241
+/venue.html
+64.246.165.150
+0 2 1 2993 1 1381758635
+/
+64.246.165.160
+0 2 1 2993 1 1380728188
+/
+2.221.98.77
+0 5 0 657 0 0
+-
+84.95.88.100
+0 7 5 8771 3 1382079643
+/
+189.85.173.162
+0 6 6 2076787 1 1382037141
+/
+188.29.164.177
+0 7 3 1172489 1 1382132166
+/
+66.249.73.62
+0 8 2 8215 2 1381948636
+-
+81.137.240.68
+0 22 19 2154774 1 1381150904
+/gallery.html
+92.19.241.197
+0 3 0 657 0 0
+-
+46.0.228.243
+0 1 0 208 0 0
+-
+84.240.30.56
+0 2 2 5570 1 1382124481
+/
+81.129.84.206
+0 1 1 2785 1 1380880096
+/
+188.29.165.181
+0 19 0 643 1 1381008217
+/gallery.html
+66.249.66.198
+0 6 4 14350 2 1382383596
+/
+205.237.88.154
+0 1 1 2785 1 1381769418
+/
+66.249.75.216
+0 13 7 22425 6 1381473913
+/venue.html
+# End Of Table - sites (monthly)
+# -sites- (daily)
+66.249.66.198
+0 3 2 7175 1 1382383596
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://danandlisa.co.uk/rsvp.html
+1 1
+http://danandlisa.co.uk/party.html
+1 37
+http://www.danandlisa.co.uk/
+1 62
+http://www.danandlisa.co.uk/index.html
+1 9
+http://danandlisa.co.uk/
+1 24
+http://danandlisa.co.uk/robots.txt
+1 1
+http://danandlisa.co.uk/venue.html
+1 4
+https://www.google.com.br/url
+0 1
+- (Direct Request)
+1 132
+http://danandlisa.co.uk/index.html
+1 1
+http://www.danandlisa.co.uk/gallery.html
+1 1
+http://www.danandlisa.co.uk/venue.html
+1 11
+http://whois.domaintools.com/danandlisa.co.uk
+0 2
+http://www.danandlisa.co.uk/party.html
+1 91
+http://www.google.co.uk/url
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; FunWebProducts; .NET CLR 1.1.4322; PeoplePal 6.2)
+0 3
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2
+0 2
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 58
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (
+0 4
+Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A501 Sa
+0 42
+Mozilla/5.0 (compatible; MJ12bot/v1.4.4; http://www.majestic12.co.uk/bot.php?+)
+0 6
+Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Sa
+0 132
+Mozilla/4.0 (compatible; MSIE 5.5; Windows CE; PPC; 240x320)
+0 1
+Mozilla/5.0 (Linux; Android 4.2.2; GT-I9505 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Mobile Sa
+0 9
+Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safa
+0 6
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CL
+0 3
+Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)
+0 1
+Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+0 39
+Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B
+0 17
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+0 1
+nutch-1.4/Nutch-1.4
+0 3
+Mozilla/5.0 (Linux; Android 4.2.2; en-gb; SAMSUNG GT-I9505 Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Version/1.0 Ch
+0 20
+Get-Linked.co.uk Robot 9777007
+0 1
+=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204 Safari/534.16
+0 1
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB7.5; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729;
+0 22
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.69 Safari/537.36
+0 6
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

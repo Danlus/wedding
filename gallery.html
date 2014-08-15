@@ -34,16 +34,11 @@
 	</header>
 		<div class="main">
 
-		
-		<!--<fieldset id="field">
-			<input type="password" id="pass" placeholder="Password"><br/>
-			<input type="submit" login();>
-		</fieldset>-->
 			<div class="pictures">
-		<fieldset id="field">
-			<input type="password" id="pass" placeholder="Password"><br/>
-			<input type="submit" onclick="login()">
-		</fieldset>
+				<fieldset id="field">
+					<input type="password" id="pass" placeholder="Password"><br/>
+					<input type="submit" onclick="login()">
+				</fieldset>
 			<div class="pictures" id="pictures">
 				<div class="ceremony">
 					<h2>Ceremony Pictures</h2>
@@ -123,19 +118,13 @@
 						$(".fancybox").fancybox();
 					});
 				</script>
-<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
-<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$(".fancybox").fancybox();
-	});
-</script>
+
 <script type="text/javascript">
 		var password = "dan";
 
 		function login(){
 			if (document.getElementById('pass').value == password){
-				document.getElementById('pictures').style.display = "block";
+				document.getElementById('pictures').style.display = "none";
 				document.getElementById('field').style.display = "none";
 			}
 		}

@@ -278,13 +278,13 @@ iframe {
 
 /*gallery page*/
 
-fieldset {
+#field {
 	width: 150px;
-	margin: 0 auto;
+	margin: 0 auto; 
 }
 
-.pictures {
-	display: block;
+#pictures {
+	display: none;
 }
 
 .imgcont {
@@ -306,15 +306,15 @@ fieldset {
 }
 
 .gallery img {
-	display: block;
+	
 	padding: 5px;	
 	background: #F2F0B1; 
 	border: 1px solid #80002a;
-	box-shadow: 1px 1px 2px #80002a;
+	box-shadow: 4px 4px 6px #80002a;
 }
 
 .gallery img:hover {
-	border: 1px solid #fff;
+	box-shadow: 1px 1px 2px #80002a;
 }
 
 .pictures h2 {
@@ -330,7 +330,7 @@ fieldset {
 }
 /*rsvp page*/
 
-#form {
+#form form {
 	margin: auto;
 	text-align: left;
 	height: 350px;

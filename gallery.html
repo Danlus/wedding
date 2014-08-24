@@ -26,32 +26,31 @@
 					<li id="last"><a href="rsvp.html">R.S.V.P</a></li>
 				</ul>
 			</nav>
-
+	
 	<header class="namebar">
 		<div id="dan">Daniel<br>Cook</div>
 			<span id="and">&amp;</span>
 				<div id="lisa">Lisa<br>Griffin</div>
 	</header>
 		<div class="main">
-
-			<div class="pictures">
-				<fieldset id="field">
-					<input type="password" id="pass" placeholder="Password"><br/>
-					<input type="submit" onclick="login()">
-				</fieldset>
-			<div class="pictures" id="pictures">
+		
+		<form id="field">
+			<input type="password" id="pass" placeholder="Password"><br/>
+			<input type="submit" onclick="login()">
+		</form>
+			<div id="pictures">
 				<div class="ceremony">
 					<h2>Ceremony Pictures</h2>
 						<section class="imgcont">
-							<div class="gallery" id="gallery">
+							<div class="gallery">
 								<ul>
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_1.jpg" title="Ceremony"><img src="img/slider_img/tn/img_1.jpg" height="100px" width="100px" alt="Ceremony"></a></li>
+									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_5.jpg" title="Ceremony"><img src="img/slider_img/tn/img_1.jpg" height="100px" width="100px" alt="Ceremony"></a></li>
 
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_1.jpg" title="Ceremony"><img src="img/slider_img/tn/img_1.jpg" height="100px" width="100px" alt="Ceremony"></a></li>
+									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_5.jpg" title="Ceremony"><img src="img/slider_img/tn/img_1.jpg" height="100px" width="100px" alt="Ceremony"></a></li>
 
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_1.jpg" title="Ceremony"><img src="img/slider_img/tn/img_1.jpg" height="100px" width="100px" alt="Ceremony"></a></li>
+									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_5.jpg" title="Ceremony"><img src="img/slider_img/tn/img_1.jpg" height="100px" width="100px" alt="Ceremony"></a></li>
 
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_1.jpg" title="Ceremony"><img src="img/slider_img/tn/img_1.jpg" height="100px" width="100px" alt="Ceremony"></a></li>
+									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_5.jpg" title="Ceremony"><img src="img/slider_img/tn/img_1.jpg" height="100px" width="100px" alt="Ceremony"></a></li>
 								</ul>
 							</div>
 						</section>
@@ -110,7 +109,6 @@
 			<!-- Add jQuery library -->
 			<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 			<!-- Add fancyBox -->
-
 			<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
 				<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
 				<script type="text/javascript">
@@ -118,15 +116,16 @@
 						$(".fancybox").fancybox();
 					});
 				</script>
-
-<script type="text/javascript">
-		var password = "dan";
+				<script type="text/javascript">
+		var password = "a";//this is the password to view images
 
 		function login(){
 			if (document.getElementById('pass').value == password){
-				document.getElementById('pictures').style.display = "block";
+				document.getElementById('pictures').style.display = "block	";
 				document.getElementById('field').style.display = "none";
-			}
+			} else {
+				alert("Please enter password")
+				}
 		}
 	</script>
 		</body>

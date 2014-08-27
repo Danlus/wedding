@@ -26,18 +26,18 @@
 					<li id="last"><a href="rsvp.html">R.S.V.P</a></li>
 				</ul>
 			</nav>
-	
+
 	<header class="namebar">
 		<div id="dan">Daniel<br>Cook</div>
 			<span id="and">&amp;</span>
 				<div id="lisa">Lisa<br>Griffin</div>
 	</header>
 		<div class="main">
-		
-		<form id="field">
-			<input type="password" id="pass" placeholder="Password"><br/>
-			<input type="submit" onclick="login()">
-		</form>
+
+			<form action="" method="GET" id="field">
+				<input type="password" id="pass" placeholder="Password"><br/>
+				<input type="submit" id="pass-login">
+			</form>
 			<div id="pictures">
 				<div class="ceremony">
 					<h2>Ceremony Pictures</h2>
@@ -110,23 +110,28 @@
 			<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 			<!-- Add fancyBox -->
 			<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
-				<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
-				<script type="text/javascript">
-					$(document).ready(function() {
-						$(".fancybox").fancybox();
-					});
-				</script>
-				<script type="text/javascript">
-		var password = "a";//this is the password to view images
+			<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$(".fancybox").fancybox();
 
-		function login(){
-			if (document.getElementById('pass').value == password){
-				document.getElementById('pictures').style.display = "block	";
-				document.getElementById('field').style.display = "none";
-			} else {
-				alert("Please enter password")
-				}
-		}
-	</script>
+					var password = "a"; // This is the password to view images
+					$("#pass-login").click(function(e) {
+						e.preventDefault(); // Prevent the form submittng and reloading page
+						var value = $('#pass').val();
+						console.log('the value: ' + value);
+						if (value != '') { // If the password field is not empty
+							if (value == password) { // Check the password matches the value
+								$('#pictures').show(); // Show element with pictures id
+								$('#field').hide(); // Hide the password form
+							} else {
+								alert("Incorrect password"); // Notice password does not match
+							}
+						}else{
+							alert("Please enter a password"); // Notice the password field is empty
+						}
+					})
+				});
+			</script>
 		</body>
 </html>

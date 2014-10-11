@@ -34,74 +34,20 @@
 	</header>
 		<div class="main">
 
-			<form action="" method="GET" id="field">
+			<form action="gallery.php" method="GET" id="field">
+				<input type="text" id="name" placeholder="Your Name" name="user" autofocus><br/>
 				<input type="password" id="pass" placeholder="Password"><br/>
-				<input type="submit" id="pass-login">
+				<input type="submit" id="pass-login" value="send">
 			</form>
 			<div id="pictures">
-				<div class="ceremony">
-					<h2>Ceremony Pictures</h2>
-						<section class="imgcont">
-							<div class="gallery">
-								<ul>
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_5.jpg" title="Ceremony"><img src="img/slider_img/tn/img_1.jpg" height="100px" width="100px" alt="Ceremony"></a></li>
-
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_5.jpg" title="Ceremony"><img src="img/slider_img/tn/img_1.jpg" height="100px" width="100px" alt="Ceremony"></a></li>
-
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_5.jpg" title="Ceremony"><img src="img/slider_img/tn/img_1.jpg" height="100px" width="100px" alt="Ceremony"></a></li>
-
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_5.jpg" title="Ceremony"><img src="img/slider_img/tn/img_1.jpg" height="100px" width="100px" alt="Ceremony"></a></li>
-								</ul>
-							</div>
-						</section>
-				</div>
-				<div class="breakfast">
-					<h2>Wedding Breakfast Pictures</h2>
-						<section class="imgcont">
-							<div class="gallery">
-								<ul>
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_2.jpg" title="Wedding Breakfast"><img src="img/slider_img/tn/img_2.jpg" height="100px" width="100px" alt="Wedding Breakfast"></a></li>
-
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_2.jpg" title="Wedding Breakfast"><img src="img/slider_img/tn/img_2.jpg" height="100px" width="100px" alt="Wedding Breakfast"></a></li>
-
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_2.jpg" title="Wedding Breakfast"><img src="img/slider_img/tn/img_2.jpg" height="100px" width="100px" alt="Wedding Breakfast"></a></li>
-
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_2.jpg" title="Wedding Breakfast"><img src="img/slider_img/tn/img_2.jpg" height="100px" width="100px" alt="Wedding Breakfast"></a></li>
-								</ul>
-							</div>
-						</section>
-				</div>
-				<div class="reception">
-					<h2>Reception Pictures</h2>
-						<section class="imgcont">
-							<div class="gallery">
-								<ul>
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_3.jpg" title="Reception"><img src="img/slider_img/tn/img_3.jpg" height="100px" width="100px" alt="Reception"></a></li>
-
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_3.jpg" title="Reception"><img src="img/slider_img/tn/img_3.jpg" height="100px" width="100px" alt="Reception"></a></li>
-
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_3.jpg" title="Reception"><img src="img/slider_img/tn/img_3.jpg" height="100px" width="100px" alt="Reception"></a></li>
-
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_3.jpg" title="Reception"><img src="img/slider_img/tn/img_3.jpg" height="100px" width="100px" alt="Reception"></a></li>
-								</ul>
-							</div>
-						</section>
-				</div>
-				<div class="honeymoon">
-					<h2>Honeymoon Pictures</h2>
-						<section class="imgcont">
-							<div class="gallery">
-								<ul>
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_4.jpg" title="HoneyMoon"><img src="img/slider_img/tn/img_4.jpg" height="100px" width="100px" alt="HoneyMoon"></a></li>
-
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_4.jpg" title="HoneyMoon"><img src="img/slider_img/tn/img_4.jpg" height="100px" width="100px" alt="HoneyMoon"></a></li>
-
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_4.jpg" title="HoneyMoon"><img src="img/slider_img/tn/img_4.jpg" height="100px" width="100px" alt="HoneyMoon"></a></li>
-
-									<li><a class="fancybox" rel="group" href="img/slider_img/lg/img_4.jpg" title="HoneyMoon"><img src="img/slider_img/tn/img_4.jpg" height="100px" width="100px" alt="HoneyMoon"></a></li>
-								</ul>
-							</div>
-						</section>
+			<h3 id="note"><strong>NOTE: </strong>All image resolutions have been reduced, to get the full resolution image contact either Dan or Lisa with the image number(s).</h3>
+				<div class="icon">
+					<section class="imgcont">
+						<div class="gallery">
+							<ul>
+							</ul>
+						</div>
+					</section>
 				</div>
 			</div>
 			<div id="jelly"><a href="http://www.jellyfishphoto.co.uk" target="_blank"><img src="img/jellyfish.png"></a></div>
@@ -113,9 +59,21 @@
 			<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
 			<script type="text/javascript">
 				$(document).ready(function() {
+					var imglist = "";
+					for(var i = 1; i < 437; i++){
+						var ii = i;
+						if (ii < 100){
+							if (ii <10){
+								ii = "0" + ii
+							}
+							ii = "0" + ii
+						}
+						imglist += '<li><a class="fancybox" rel="group" href="img/slider_img/lg/'+ii+'.jpg" title="Image Number '+ii+'"><img src="img/slider_img/tn/m_'+ii+'.jpg" height="100px" width="100px" title="'+ii+'" alt="our wedding"></a></li>';
+					}
+					$(".gallery").html("<ul>" + imglist + "</ul>")
 					$(".fancybox").fancybox();
 
-					var password = "160814"; // This is the password to view images
+					var password = "ldc160814"; // This is the password to view images
 					$("#pass-login").click(function(e) {
 						e.preventDefault(); // Prevent the form submittng and reloading page
 						var value = $('#pass').val();
@@ -125,13 +83,15 @@
 								$('#pictures').show(); // Show element with pictures id
 								$('#field').hide(); // Hide the password form
 							} else {
-								alert("Incorrect password"); // Notice password does not match
+								alert("Incorrect password."); // Notice password does not match
 							}
 						}else{
 							alert("Please enter a password"); // Notice the password field is empty
 						}
 					})
 				});
+
+
 			</script>
 		</body>
 </html>

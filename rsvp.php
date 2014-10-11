@@ -1,4 +1,3 @@
-
 <?php 
 	$name = $_POST["name"]; 
 	$rsvp = $_POST["rsvp"];
@@ -64,7 +63,6 @@
 				if ($Sent){
 			?>
 			<h1>Thank You</h1>
-			<p>Your RSVP has been confirmed</p>
 			<a href="index.html">Continue Browsing</a>
 			<?php
 				}else{

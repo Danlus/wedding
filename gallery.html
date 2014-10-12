@@ -34,13 +34,13 @@
 	</header>
 		<div class="main">
 
-			<form action="gallery.php" method="GET" id="field">
-				<input type="text" id="name" placeholder="Your Name" name="user" autofocus><br/>
+			<form action="gallery.php" method="POST" id="field">
+				<input type="text" id="yourname" placeholder="Your Name" name="user" autofocus required><br/>
 				<input type="password" id="pass" placeholder="Password"><br/>
-				<input type="submit" id="pass-login" value="send">
+				<input type="submit" id="pass-login" name="submit	" value="send">
 			</form>
 			<div id="pictures">
-			<h3 id="note"><strong>NOTE: </strong>All image resolutions have been reduced, to get the full resolution image contact either Dan or Lisa with the image number(s).</h3>
+			<h3 id="note">All image resolutions have been reduced, to get the full resolution image contact either Dan or Lisa with the image number(s).</h3>
 				<div class="icon">
 					<section class="imgcont">
 						<div class="gallery">

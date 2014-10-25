@@ -1,5 +1,5 @@
 <?php
-	$user = $_POST["user"];
+	$user = "user";
 
 	$to = 'dan.s.cook@hotmail.com, d.cookplastering@sky.com';
     $subject = 'Who is looking at our pics';
@@ -7,5 +7,6 @@
     $headers  = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
     $headers .= 'From: rsvp@danandlisa.com';
-    mail($to, $subject, $body, $headers); 
+        (echo mail(to, subject, message));
+    //mail($to, $subject, $body, $headers); 
 ?>

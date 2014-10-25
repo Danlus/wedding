@@ -296,6 +296,10 @@ iframe {
 	overflow: hidden;
 }
 
+.fh {
+	margin: 0;
+}
+
 .gallery {
 	margin: auto;
 	width: 600px;

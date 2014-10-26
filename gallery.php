@@ -7,7 +7,9 @@
         $user = $_POST["user"];
         $password = "ldc160814"; // This is the password to view images
         $value = $_POST["pass"];
+
         if ($value == $password) { // Check the password matches the value
+            $value = strtolower();
             $loggedIn = true;
             $to = 'dan.s.cook@hotmail.com';
             $subject = 'Who is looking at our pics';
